@@ -19,8 +19,6 @@
     color:var(--dark-color);
 }
 
-
-
 .list {
     list-style: none;
 }
@@ -44,34 +42,3 @@
     color: var(--primary-brand-color);
 }
 
-.hero-title {
-    color:var(--cloud-color);
-}
-
-
-
-.features-title,
-.work-title {
-    color:var(--dark-color);
-}
-
-.features {
-    color:var(--text-color);
-}
-
-.command-title {
-    color:var(--dark-color);
-}
-
-.command {
-    color:var(--text-color);
-}
-
-.basement {
-    color: var(--cornflower-color);
-}
-
- .button {
-    color: var(--cloud-color);
-    background-color:var(--primary-brand-color);
-}
