@@ -4,6 +4,7 @@
     --text-color:#434455;
     --cloud-color:#ffffff;
     --cornflower-color:#E7E9FC;
+    --light-cloud-color:#F4F4FD;
 }
 
 .logo {
@@ -11,7 +12,7 @@
 }
 
 .logo-two {
-    color: var(--dark-color);
+    color:var(--dark-color);
 }
 
 .body {
@@ -29,7 +30,7 @@
 
 .site-nav .link:hover,
 .site-nav .link:focus {
-    color: var(--primary-brand-color);
+    color:var(--primary-brand-color);
 }
 
 .contacts-nav a {
@@ -39,6 +40,10 @@
 
 .contacts-nav .link:hover,
 .contacts-nav .link:focus {
-    color: var(--primary-brand-color);
+    color:var(--primary-brand-color);
+}
+
+.row-one title {
+    color:var(--dark-color);
 }
 
