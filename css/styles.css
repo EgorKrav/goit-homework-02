@@ -4,6 +4,9 @@
     --text-color:#434455;
     --cloud-color:#ffffff;
     --cornflower-color:#E7E9FC;
+    --lightcloud-color:#F4F4FD;
+    --pressedstate-color:#404BBF;
+    
 }
 
 .logo {
@@ -18,8 +21,6 @@
     background-color:var(--cloud-color);
     color:var(--dark-color);
 }
-
-
 
 .list {
     list-style: none;
@@ -48,7 +49,10 @@
     color:var(--cloud-color);
 }
 
-
+.button {
+    color: var(--cloud-color);
+    background-color:var(--primary-brand-color);
+}
 
 .features-title,
 .work-title {
@@ -71,7 +75,26 @@
     color: var(--cornflower-color);
 }
 
- .button {
-    color: var(--cloud-color);
-    background-color:var(--primary-brand-color);
+
+
+
+.filters-button .link {
+    color: var(--primary-brand-color);
+    background-color:var(--lightcloud-color);
 }
+
+.filters-button .link:focus,
+.filters-button .link:hover {
+    color:var(--cloud-color);
+    background-color:var(--pressedstate-color);
+}
+
+.projects .title {
+    color:var(--dark-color);
+}
+
+.projects {
+    color: var(--text-color);
+}
+
+
