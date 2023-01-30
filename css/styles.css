@@ -59,7 +59,6 @@ body {
 
 .contacts-nav a {
     color:var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -85,13 +84,14 @@ body {
     text-align: center;   
 }
 
-.button {
+.button .link {
     color: var(--cloud-color);
     background-color:var(--primary-brand-color);
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    text-align: center; 
 }
 
 .button .link:hover
@@ -113,7 +113,6 @@ body {
 
 .features {
     color:var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -134,7 +133,6 @@ body {
 
 .profession {
     color:var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -153,7 +151,6 @@ body {
 
 .basement-text {
     color: var(--cornflower-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -209,7 +206,6 @@ body {
 
 .projects {
     color: var(--text-color);
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
